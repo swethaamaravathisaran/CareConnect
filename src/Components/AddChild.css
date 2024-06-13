@@ -1,0 +1,64 @@
+/* addchild.css */
+
+/* Reset default margin and padding for body and html */
+.addchild-body, .addchild-html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Styles for video container */
+.addchild-video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.addchild-video-container video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Styles for form container */
+.addchild-form-container {
+    background-color: rgba(255, 255, 255, 0.7); /* Increase opacity by changing the alpha value */
+    backdrop-filter: blur(10px); /* Add blur effect to the background */
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 300px; /* Adjust maximum width */
+    margin: auto; /* Center the container horizontally */
+    margin-top: 50px;
+    position: relative; /* Set position to relative */
+    z-index: 1; /* Set z-index to 1 to make it appear above the video */
+}
+
+/* Styles for form elements */
+.addchild-form-container input,
+.addchild-form-container select,
+.addchild-form-container button {
+    width: 100%; /* Full width */
+    padding: 8px; /* Adjust padding */
+    margin-bottom: 10px; /* Add spacing between elements */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5); /* Increase opacity by changing the alpha value */
+    backdrop-filter: blur(10px); /* Add blur effect to the form elements */
+    color: #000; /* Set text color */
+    border: 1px solid #aaa; /* Adjust border color for better visibility */
+}
+
+/* Adjust submit button styles */
+.addchild-form-container button {
+    width: 100%; /* Full width */
+    background-color: rgba(0, 0, 255, 0.7); /* Blue background color */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    border: none; /* Remove border */
+    cursor: pointer;
+}
+
+.addchild-form-container button:hover {
+    background-color: rgba(0, 0, 255, 0.9); /* Darker blue on hover */
+}

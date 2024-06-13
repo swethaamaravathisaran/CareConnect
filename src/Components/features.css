@@ -1,0 +1,91 @@
+/* features.css */
+
+/* Background video */
+/* features.css */
+
+/* Background video */
+/* features.css */
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Use viewport width */
+  height: 100vh; /* Use viewport height */
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+
+/* Overlay to darken the background */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(233, 227, 227, 0.1); /* Adjust opacity as needed */
+  z-index: 0;
+}
+
+/* Content container */
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Features container */
+.features-container {
+  max-width: 1400px; /* Adjust maximum width */
+  padding: 0 20px; /* Adjust horizontal padding */
+  margin-top: 2rem; /* Add margin from the top */
+  display: flex;
+  flex-direction: column; /* Align feature containers vertically */
+  align-items: center;
+  margin-left: 100px; /* Center feature containers horizontally */
+}
+
+/* Features grid */
+.feature-container {
+  background-color: #FDECF4; /* Adjust background color */
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(161, 157, 157, 0.1); /* Adjust shadow */
+  padding: 2rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+  width: 100%; /* Expand container to full width */
+  margin-bottom: 2rem; /* Add margin between containers */
+  max-width: 1000px;
+}
+
+/* Title */
+.text-4xl {
+  font-size: 2.5rem;
+  margin-bottom: 2rem; /* Add margin below the title */
+}
+
+/* Feature heading */
+.text-2xl {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Feature description */
+.text-gray-600 {
+  color: #4B5563; /* Adjust text color */
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
+  /* Features grid with 2 columns */
+  .grid-cols-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2rem; /* Adjust gap between feature containers */
+  }
+}

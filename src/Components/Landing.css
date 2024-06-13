@@ -1,0 +1,86 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Landing page container */
+  .landing-page {
+    font-family: sans-serif;
+  }
+  
+  /* Hero section */
+  .hero-background {
+    position: relative;
+  }
+  
+  .video-container {
+    position: absolute; /* Change from fixed to absolute */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .video-container video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Feature card */
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    backdrop-filter: blur(10px); /* Apply blur effect to the background */
+    -webkit-backdrop-filter: blur(10px); /* Apply blur effect to the background (for Safari) */
+    border-bottom: 1px solid #ffffff; /* White border bottom */
+  }
+  
+  .container {
+    max-width: 6xl; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 1rem; /* Add padding to left and right */
+  }
+  
+  .logo-container {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #d1d5db; /* Gray-300 */
+  }
+  
+  .btn-get-started {
+    background-color: #3b82f6; /* Blue-500 */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-get-started:hover {
+    background-color: #2563eb; /* Blue-600 */
+  }
+  

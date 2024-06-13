@@ -1,0 +1,111 @@
+/* signup.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6; /* Background color */
+  }
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+    position: relative;
+    border-radius: 30px; /* Add border radius for rounded corners */
+    padding: 20px; /* Add padding for spacing */
+    /* White background color */
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    /* Set a fixed width for the login wrapper */
+  }
+  
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+/* signup.css */
+.form-wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Change to 100% */
+    width: 60%; /* Adjust width as needed */
+    background-color: rgba(177, 174, 174, 0.7);
+    margin-top: 80px;
+    margin-left: 300px; 
+    border-radius: 20px;/* Add margin-top for distance from the top */
+}
+
+  
+  .signup-form {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-column:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Make labels bold */
+    color: #333333; /* Adjust label color */
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa; /* Adjust border color for better visibility */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: black;
+    cursor: pointer;
+    border: none; /* Remove border for the button */
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  link:hover{
+    background-color: #0056b3;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-gray-800 {
+    color: #333333;
+  }
+  
+  .w-full {
+    width: 100%;
+  }

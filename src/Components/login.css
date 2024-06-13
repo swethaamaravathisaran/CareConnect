@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6; /* Background color */
+}
+
+/* Update the login container to occupy more space and make it transparent */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set a minimum height to ensure the container covers the entire viewport */
+  background: url('https://videocdn.cdnpk.net/joy/content/video/free/video0482/large_preview/_import_62aad5c5abd6e9.44692960.mp4') no-repeat center center / cover; /* Add your background video URL here */
+  /* Adjust the opacity as needed */
+}
+
+/* Update the login wrapper to enhance its appearance */
+.login-wrapper {
+  background-color: rgba(255, 255, 255, 0.3); /* Adjust the opacity as needed */
+  padding: 40px; /* Increase padding for more spacing inside the container */
+  border-radius: 20px; /* Increase border radius for rounded corners */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  width: 400px; /* Set a fixed width for the login wrapper */
+}
+
+/* Update the login heading for better alignment and styling */
+.login-heading {
+  text-align: center;
+  margin-bottom: 30px; /* Increase margin for more spacing between heading and form */
+  font-size: 24px; /* Increase font size for better readability */
+  color: #333; /* Change text color for better contrast */
+}
+
+/* Update form groups and inputs for better styling */
+.form-group {
+  margin-bottom: 20px; /* Increase margin for more spacing between form groups */
+}
+
+label {
+  font-weight: bold;
+  color: #020202; 
+  font-weight: bolder;/* Change label color for better visibility */
+}
+
+input {
+  padding: 15px; /* Increase padding for larger input fields */
+  border-radius: 8px; /* Increase border radius for rounded input fields */
+  border: 2px solid #ddd; /* Update border style for better contrast */
+  transition: border-color 0.3s ease; /* Add transition for smoother hover effect */
+  width: 100%; /* Set input width to 100% for responsiveness */
+}
+
+input:focus {
+  border-color: #007bff; /* Change border color on focus for better visual feedback */
+}
+
+/* Update login button for better appearance and hover effect */
+.login-button {
+  padding: 15px; /* Maintain padding for the login button */
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px; /* Increase font size for better readability */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  width: 100%; /* Set button width to 100% for responsiveness */
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Darken button color on hover for better feedback */
+}

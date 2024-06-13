@@ -1,0 +1,70 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    position: relative;
+    background-color: transparent;
+  }
+  
+  .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .content {
+    z-index: 20;
+  }
+  
+
+.module-container > div {
+    background-color: rgb(151, 180, 182); /* Adjust transparency here */
+    border-radius: 15px; /* Make border radius slightly smaller */
+    box-shadow: 0 4px 8px rgba(184, 75, 175, 0.888); /* Make box shadow lighter */
+    padding: 30px; /* Adjust padding for smaller size */
+    transition: all 0.3s ease;
+    width: 300px; /* Adjust width of module containers */
+    height: 250px; /* Adjust height of module containers */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .module-container > div:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(244, 241, 241, 0.1);
+  }
+  
+  .module-container h2 {
+    font-size: 26px; /* Make heading font size smaller */
+    margin-bottom: 5px; /* Reduce margin bottom for heading */
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .module-container p {
+    font-size: 20px; /* Make paragraph font size smaller */
+    color: #333333; /* Change text color to make it more visible */
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px; /* Reduce margin top for paragraph */
+  }
+  .back-button {
+    z-index: 20;
+  }
+  
+  
+  
+  
+  
